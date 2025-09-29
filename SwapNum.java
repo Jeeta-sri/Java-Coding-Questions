@@ -1,6 +1,6 @@
 public class SwapNum{
     public static void main(String[] args) {
-        int a = 16, b = 21;
+        int a = 16, b = 12;
 
         a = a + b;  
         b = a - b;  
@@ -9,3 +9,4 @@ public class SwapNum{
         System.out.println("After Swap: a = " + a + ", b = " + b);
     }
 }
+
