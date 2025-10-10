@@ -1,0 +1,17 @@
+public class FindDuplicates {
+    public static void main(String[] args) {
+        int arr[] = {1, 2, 3, 4, 2, 5, 1, 6, 6, 9, 10};
+
+        System.out.println("Duplicate elements are:");
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] == arr[j]) {
+                    System.out.println(arr[i]);
+                    break; // avoid printing same duplicate more than once
+                }
+            }
+        }
+    }
+}
+
+
